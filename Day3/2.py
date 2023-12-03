@@ -65,7 +65,7 @@ class Grid:
 
     def traverse(self):
         """
-        Traverses grid and returns the sum of adjacent numbers
+        Traverses grid and returns the sum of products, of numbers adjacent to a star symbol - '*'
         """
         res = 0
         for y in range(self.Y + 1):
