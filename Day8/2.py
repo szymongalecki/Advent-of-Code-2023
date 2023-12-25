@@ -1,3 +1,8 @@
+"""
+url:
+https://adventofcode.com/2023/day/8
+"""
+
 from math import lcm
 
 with open("input.txt") as f:

@@ -1,3 +1,8 @@
+"""
+url:
+https://adventofcode.com/2023/day/8
+"""
+
 with open("input.txt") as f:
     instructions, network = f.read().split("\n", 1)
     network = network.strip().split("\n")
